@@ -1,5 +1,6 @@
 # after_install_brew_MacOS
  my personal script after buy or reset MacOS
+ 
  To use this script copy these command to Terminal:
 
  1. Download
