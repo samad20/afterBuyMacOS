@@ -67,3 +67,15 @@ brew install --cask spotify
 
 echo -n "installing virtualbox"
 brew install --cask virtualbox
+
+echo -n "installing dozer"
+brew install --cask dozer
+
+echo -n "installing rectangle"
+brew install --cask rectangle
+
+echo -n "balena-cli"
+brew install balena-cli
+
+echo -n "ferdi"
+brew install --cask ferdi
