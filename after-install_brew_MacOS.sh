@@ -15,6 +15,9 @@ echo -ne "
 ██████╦╝██║░░██║███████╗░░╚██╔╝░╚██╔╝░  ╚█████╔╝██║░╚███║  ██║░╚═╝░██║██║░░██║╚█████╔╝╚█████╔╝██████╔╝
 ╚═════╝░╚═╝░░╚═╝╚══════╝░░░╚═╝░░░╚═╝░░  ░╚════╝░╚═╝░░╚══╝  ╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚════╝░░╚════╝░╚═════╝░
 "
+
+
+# install Homebrew-The Missing Package Manager for macOS (or Linux)
 echo "installing brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -53,7 +56,7 @@ DEV=(
 
 )
 
-# install from brew.sh using DEVlist
+# install from brew.sh using DEV list
 echo -n "Installing Gnu and dev packages..."
 brew install ${DEV[@]}
 
@@ -82,6 +85,7 @@ CASKS=(
 
 )
 
+# install from brew.sh using CASK list
 echo -n "Installing cask apps..."
 brew install --cask ${CASKS[@]}
 
@@ -108,8 +112,9 @@ MAS=(
    1176895641
    # Blackmagic Disk Speed Test
    425264550  
-   
+
 )
+# install from app store using MAS list
 echo -n "Installing apps from App Store..."
 mas install ${MAS[@]}
 
