@@ -1,4 +1,9 @@
 # afterBuyMacOS
+******************
+
+![Launch - screenshot ](https://raw.githubusercontent.com/samad20/afterBuyMacOS/main/afterBuyMacOS.png)
+
+******************
  My personal script after buy or reset MacOS
  
  To use this script copy these command to Terminal:
