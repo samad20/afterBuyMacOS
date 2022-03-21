@@ -5,7 +5,7 @@
 
  1. Download
 ```
-curl https://github.com/samad20/after_install_brew_MacOS/blob/main/afterBuyMacOS.sh --output afterBuyMacOS.sh
+curl https://github.com/samad20/afterBuyMacOS/blob/main/afterBuyMacOS.sh --output afterBuyMacOS.sh
 ```
  2. edit it if you want, then execute:
 ```
