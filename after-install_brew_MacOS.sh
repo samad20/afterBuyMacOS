@@ -24,7 +24,9 @@ brew install brew-cask-completion
 echo "update brew"
 brew update
 
+# list for what you want install from brew.sh
 DEV=(
+    mas
     coreutils
     gnu-sed
     gnu-tar
@@ -42,6 +44,8 @@ DEV=(
 echo -n "Installing Gnu and dev packages..."
 brew install ${DEV[@]}
 
+
+# list for what you want install from brew CASK
 CASKS=(
     brave-browser
     discord
