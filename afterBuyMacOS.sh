@@ -15,6 +15,7 @@ echo -ne "
 echo "installing brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# Fish completion for brew-cask
 echo "Installing cask..."
 brew install brew-cask-completion
 
