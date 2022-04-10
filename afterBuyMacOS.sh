@@ -113,6 +113,18 @@ MAS=(
 echo -n "Installing apps from App Store..."
 mas install ${MAS[@]}
 
+
+# Minimize animation effect
+# Set to scale
+defaults write com.apple.dock "mineffect" -string "scale" && killall Dock
+
+#auto-hide the dock and remove its delay on Mac
+defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0 && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock
+
+# change dock POSITION
+defaults write com.apple.Dock orientation -string left
+killall Dock
+
 echo -ne "
 
 ░██████╗░░█████╗░██████╗░██████╗░██╗░░░██╗███████╗██╗
