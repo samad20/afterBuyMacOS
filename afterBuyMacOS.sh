@@ -48,6 +48,8 @@ DEV=(
     cpufetch
     # Fast, highly customisable system info script
     neofetch
+    # Platform built on V8 to build network applications
+    node@18
 
 )
 
@@ -58,13 +60,13 @@ brew install ${DEV[@]}
 
 # list for what you want install from brew CASK
 CASKS=(
+    google-chrome
     brave-browser
-    discord
     visual-studio-code
     vlc
-    zoom
-    github
     authy
+
+
     #app help you to show shortcuts when hold command button for 5 sec
     cheatsheet
     #clipboard
@@ -77,6 +79,9 @@ CASKS=(
     rectangle
     # Tool to flash OS images to SD cards & USB drives
     balenaetcher
+    # AltTab brings the power of Windows’s “alt-tab” window switcher to macOS.
+    alt-tab
+
 
 )
 
