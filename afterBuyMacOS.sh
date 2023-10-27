@@ -61,12 +61,16 @@ brew install ${DEV[@]}
 # list for what you want install from brew CASK
 CASKS=(
     google-chrome
+    # Web browser focusing on privacy
     brave-browser
+    # Open-source code editor
     visual-studio-code
+    # Multimedia player
     vlc
+    # Free and open-source media player
+    iina
+    # Two-factor authentication software
     authy
-
-
     #app help you to show shortcuts when hold command button for 5 sec
     cheatsheet
     #clipboard
