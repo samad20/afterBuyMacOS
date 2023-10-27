@@ -25,7 +25,7 @@ brew update
 # list for what you want install from brew.sh
 DEV=(
     # Mac App Store command-line interface
-    mas
+    # mas
     # GNU File, Shell, and Text utilities
     coreutils
     # GNU implementation of the famous stream editor
@@ -107,20 +107,20 @@ brew install --cask ${CASKS[@]}
 #    signout     Sign out of the Mac App Store
 #    uninstall   Uninstall app installed from the Mac App Store
 
-MAS=(
-   # Sunset Code-simple text editor
-   1480145554
-   # Telegram
-   747648890
-   # Spark – Email App by Readdle
-   1176895641
-   # Blackmagic Disk Speed Test
-   425264550  
+# MAS=(
+#    # Sunset Code-simple text editor
+#    1480145554
+#    # Telegram
+#    747648890
+#    # Spark – Email App by Readdle
+#    1176895641
+#    # Blackmagic Disk Speed Test
+#    425264550  
 
-)
-# install from app store using MAS list
-echo -n "Installing apps from App Store..."
-mas install ${MAS[@]}
+# )
+# # install from app store using MAS list
+# echo -n "Installing apps from App Store..."
+# mas install ${MAS[@]}
 
 
 # Minimize animation effect
